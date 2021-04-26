@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OyunEkrani"
+    tools:layout_editor_absoluteY="81dp">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+        android:layout_width="fill_parent"
+
+
+        android:layout_height="fill_parent"
+
+
+        android:orientation="vertical"
+
+
+        android:background="@drawable/arkaplan2"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/buttonileri"
+        android:layout_width="51dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="416dp"
+        android:layout_marginEnd="252dp"
+        android:layout_marginRight="252dp"
+        android:background="@drawable/yukari"
+        android:text=""
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/buttonGeri"
+        android:layout_width="54dp"
+        android:layout_height="66dp"
+        android:layout_marginEnd="304dp"
+        android:layout_marginRight="304dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/asagi"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSol"
+        android:layout_width="53dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="88dp"
+        android:background="@drawable/sol"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSag"
+        android:layout_width="64dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="244dp"
+        android:layout_marginRight="244dp"
+        android:layout_marginBottom="88dp"
+        android:background="@drawable/sag"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/dusman2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginRight="135dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tank_asagi" />
+
+    <ImageView
+        android:id="@+id/dusman1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="69dp"
+        android:layout_marginLeft="69dp"
+        android:layout_marginTop="69dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tank_asagi" />
+
+    <TextView
+        android:id="@+id/skor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="puan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/tank"
+        android:layout_width="53dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="137dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/tank_uukari" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
